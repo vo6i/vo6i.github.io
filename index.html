@@ -6,17 +6,16 @@
       <title>HTML Document</title>
    </head>
    <body style="background-color:black;">
-	   <script>function checkCookie() {
-  let username = getCookie("username");
-  if (username != "") {
-   alert("Welcome again " + username);
-  } else {
-    username = prompt("Please enter your name:", "");
-    if (username != "" && username != null) {
-      setCookie("username", username, 365);
-    }
-  }
-}</script>
+	   <form I'd="usernameFormId">
+		   <label for="username">Enter u username</label>
+		   <input type="text" id>"username" name="username" required>
+		   <button type="button" on click="submitForm()">Submit</button>
+	   <script>
+		   function submitForm(){
+			   var username = document.getElementById("username").value;
+			   alert("Hello, " + username + "💕");
+			   document.cookie = " username" + username;
+	   </script>
      <a href="http://dclxviclan.itch.io/lst-d">
   <img src="lxdvxl.gif">
      </a>
