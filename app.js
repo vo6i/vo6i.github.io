@@ -19,7 +19,7 @@
         });
     }
 
-/*   
+   
     // show an error message
     const showError = () => {
         const error = document.querySelector('.error');
@@ -39,5 +39,5 @@
 
     // show notification or error
     granted ? showNotification() : showError();
-*/
+
 })();
