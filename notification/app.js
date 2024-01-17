@@ -4,7 +4,7 @@
         // create a new notification
         const notification = new Notification('JavaScript Notification API', {
             body: 'This is a JavaScript Notification API demo',
-            icon: 'image1.png'
+            icon: 'js.png'
         });
 
         // close the notification after 10 seconds
@@ -19,27 +19,7 @@
         });
     }
 
-    let notification
-    let interval
-    document.addEventListener("visibilitychange", () => {
-      if (document.visibilityState === "hidden") {
-        const leaveDate = new Date()
-        interval = setInterval(() => {
-          notification = new Notification("Come back to dclxviclan", {
-            body: `You have been gone for ${Math.round((new Date() - leaveDate) / 1000)} seconds`,
-            tag: "Come Back",
-            icon: 'image1.png',
-          })
-	  notification.addEventListener('click', () => {
-
-            window.open('https://dclxviclan.itch.io/happy-new-year');
-          })
-        }, 100)
-      } else {
-        if (interval) clearInterval(interval)
-        if (notification) notification.close()
-      }
-    })
+   
     // show an error message
     const showError = () => {
         const error = document.querySelector('.error');
