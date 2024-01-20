@@ -18,8 +18,8 @@ main {
   position: absolute;
   z-index: 2;
   width: 150px;
-  top: calc(50% - 90px);
-  right: calc(50% - 300px);
+  top: calc(50% - 10px);
+  right: calc(50% + 200px);
   transform: translate(-50%, -50%);
 }
 
@@ -28,15 +28,15 @@ main {
   z-index: 3;
   width: 50px;
   top: calc(50% - 20px);
-  right: calc(50% - 190px);
+  right: calc(50% + 150px);
   transform: translate(-50%, -50%);
 }
 
 .tr {
   position: absolute;
   z-index: 4;
-  width: 200px;
-  top: calc(50% - 90px);
+  width: 250px;
+  top: calc(50% - 40px);
   left: calc(50% - 150px);
   transform: translate(-50%, -50%);
 }
