@@ -35,7 +35,7 @@ main {
 .tr {
   position: absolute;
   z-index: 4;
-  width: 250px;
+  width: 200px;
   top: calc(50% - 90px);
   left: calc(50% - 170px);
   transform: translate(-50%, -50%);
