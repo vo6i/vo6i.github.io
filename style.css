@@ -8,7 +8,7 @@ main {
 .bg {
   position: absolute;
   z-index: 1;
-  width: 2800px;
+  width: 700px;
   top: calc(50% - 390px);
   left: calc(50 + 10px);
   transform: translate(-50%, -50%);
@@ -17,7 +17,7 @@ main {
 .hr {
   position: absolute;
   z-index: 2;
-  width: 100px;
+  width: 150px;
   top: calc(50% - 90px);
   left: calc(50 + 10px);
   transform: translate(-50%, -50%);
@@ -27,7 +27,7 @@ main {
   position: absolute;
   z-index: 3;
   width: 50px;
-  top: calc(50% - 120px);
+  top: calc(50% + 120px);
   left: calc(50 + 30px);
   transform: translate(-50%, -50%);
 }
@@ -35,8 +35,8 @@ main {
 .tr {
   position: absolute;
   z-index: 4;
-  width: 150px;
-  top: calc(50% - 190px);
+  width: 250px;
+  top: calc(50% + 290px);
   left: calc(50 - 70px);
   transform: translate(-50%, -50%);
 }
