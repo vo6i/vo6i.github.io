@@ -9,8 +9,6 @@ main {
   position: absolute;
   z-index: 1;
   width: 1000px;
-  top: calc(50% - 390px);
-  right: calc(50℅);
   transform: translate(-50%, -50%);
 }
 
