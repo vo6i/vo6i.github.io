@@ -8,7 +8,7 @@ main {
 .bg {
   position: absolute;
   z-index: 1;
-  width: 700px;
+  width: 1000px;
   top: calc(50% - 390px);
   left: calc(50℅ - 410px);
   transform: translate(-50%, -50%);
@@ -19,7 +19,7 @@ main {
   z-index: 2;
   width: 150px;
   top: calc(50% - 90px);
-  left: calc(50% - 250px);
+  left: calc(50% - 200px);
   transform: translate(-50%, -50%);
 }
 
@@ -28,7 +28,7 @@ main {
   z-index: 3;
   width: 50px;
   top: calc(50% - 20px);
-  left: calc(50% - 230px);
+  left: calc(50% - 190px);
   transform: translate(-50%, -50%);
 }
 
