@@ -19,7 +19,7 @@ main {
   z-index: 2;
   width: 150px;
   top: calc(50% - 90px);
-  left: calc(50% - 200px);
+  right: calc(50% - 200px);
   transform: translate(-50%, -50%);
 }
 
