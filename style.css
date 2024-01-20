@@ -10,7 +10,7 @@ main {
   z-index: 1;
   width: 700px;
   top: calc(50% - 390px);
-  left: calc(50 + 10px);
+  left: calc(50℅ + 10px);
   transform: translate(-50%, -50%);
 }
 
@@ -19,7 +19,7 @@ main {
   z-index: 2;
   width: 150px;
   top: calc(50% - 90px);
-  left: calc(50 - 150px);
+  left: calc(50% - 150px);
   transform: translate(-50%, -50%);
 }
 
@@ -28,7 +28,7 @@ main {
   z-index: 3;
   width: 50px;
   top: calc(50% - 220px);
-  left: calc(50 - 130px);
+  left: calc(50% - 130px);
   transform: translate(-50%, -50%);
 }
 
@@ -37,6 +37,6 @@ main {
   z-index: 4;
   width: 250px;
   top: calc(50% - 490px);
-  left: calc(50 - 70px);
+  left: calc(50% - 70px);
   transform: translate(-50%, -50%);
 }
