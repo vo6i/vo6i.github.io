@@ -1,7 +1,7 @@
 main {
   position: relative;
-  height: 50vh;
-  width: 50vw;
+  height: 10vh;
+  width: 10vw;
   overflow: hidden;
 }
 
@@ -10,7 +10,7 @@ main {
   z-index: 1;
   width: 1000px;
   top: calc(50% - 390px);
-  right: calc(50℅ - 410px);
+  right: calc(50℅ - 210px);
   transform: translate(-50%, -50%);
 }
 
@@ -18,8 +18,8 @@ main {
   position: absolute;
   z-index: 2;
   width: 150px;
-  top: calc(50% - 10px);
-  right: calc(50% + 200px);
+  top: calc(50% - 110px);
+  right: calc(50% +300px);
   transform: translate(-50%, -50%);
 }
 
@@ -27,16 +27,16 @@ main {
   position: absolute;
   z-index: 3;
   width: 50px;
-  top: calc(50% - 20px);
-  right: calc(50% + 150px);
+  top: calc(50% - 50px);
+  right: calc(50% + 180px);
   transform: translate(-50%, -50%);
 }
 
 .tr {
   position: absolute;
   z-index: 4;
-  width: 250px;
-  top: calc(50% - 40px);
+  width: 350px;
+  top: calc(50% - 80px);
   left: calc(50% - 150px);
   transform: translate(-50%, -50%);
 }
