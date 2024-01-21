@@ -8,9 +8,8 @@ main {
 .bg {
   position: absolute;
   z-index: 1;
-  width: 1000px;
-  top: calc(50℅ + 500px);
-  right: 20;
+  width: 100vw;
+  height: 100vh;
   transform: translate(-50%, -50%);
 }
 
@@ -39,4 +38,8 @@ main {
   top: calc(50% - 80px);
   left: calc(50% - 150px);
   transform: translate(-50%, -50%);
+}
+
+.parallax {
+  pointer-events: none;
 }
