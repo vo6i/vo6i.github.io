@@ -8,8 +8,8 @@ main {
 .bg {
   position: absolute;
   z-index: 1;
-  width: 1800px;
-  height: 2000px;
+  width: 1000px;
+  height: 800px;
   transform: translate(0%, 0%);
 }
 
