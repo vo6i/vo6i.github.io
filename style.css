@@ -10,7 +10,7 @@ main {
   z-index: 1;
   width: 1800px;
   height: 2000px;
-  transform: translate(-50%, -50%);
+  transform: translate(0%, 0%);
 }
 
 .hr {
