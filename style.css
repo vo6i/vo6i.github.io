@@ -52,4 +52,6 @@ main {
   pointer-events: none;
 }
 
-
+.nonsen {
+  pointer-events: none;
+}
