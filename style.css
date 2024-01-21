@@ -5,6 +5,14 @@ main {
   overflow: hidden;
 }
 
+.bgs {
+  position: absolute;
+  z-index: 1;
+  width: 2000px;
+  height: 1000px;
+  transform: translate(0%, 0%);
+}
+
 .bg {
   position: absolute;
   z-index: 2;
@@ -44,10 +52,4 @@ main {
   pointer-events: none;
 }
 
-.bgs {
-  position: absolute;
-  z-index: 1;
-  width: 2000px;
-  height: 1000px;
-  transform: translate(0%, 0%);
-}
+
