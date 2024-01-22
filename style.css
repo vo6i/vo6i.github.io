@@ -4,6 +4,8 @@ main {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
+  top: 0℅;
+  left: 0%;
 }
 
 .bgs {
@@ -65,10 +67,11 @@ section {
   padding-top: 1000px;
 }
 
+
 h1 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 100;
-  font-style: italic;
+  font-family: 'Bangers', cursive; 
+  width: 500px;
+  height: 200px;
   top: 20%;
   left: 50%;
   z-index: 9;
