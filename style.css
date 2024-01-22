@@ -67,13 +67,10 @@ section {
   padding-top: 1000px;
 }
 
-h1 {
-  font-family: "Climate Crisis", sans-serif;
+.dclxviclan {
+  font-family: "Rubik Burned", system-ui;
   font-weight: 400;
   top: 20%;
   left: 50%;
   z-index: 9;
-  font-style: normal;
-  font-variation-settings:
-    "YEAR" 1979;
 }
