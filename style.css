@@ -70,12 +70,14 @@ main {
 }
 
 .text h1 {
+  font-family: "Rubik Burned", system-ui;
   font-weight: 500;
   font-size: 4.5rem;
   line-eheight: 0.88;
 }
 
 .text h2 {
+  font-family: "Rubik Burned", system-ui;
   font-weight: 500;
   font-size: 4.5rem;
   line-eheight: 0.88;
