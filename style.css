@@ -62,4 +62,9 @@ section {
   background-color: pink;
   height: 3000px;
   padding: 0 370px;
+  padding-top: 1000px;
+}
+
+h1 {
+  font-family: "Rubik Burned", system-ui;
 }
