@@ -58,3 +58,8 @@ main {
   pointer-events: none;
 }
 
+section {
+  background-color: pink;
+  height: 3000px;
+  padding: 0 370px;
+}
