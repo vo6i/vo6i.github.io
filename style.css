@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap')
+
 main {
   position: relative;
   height: 100vh;
@@ -54,4 +56,27 @@ main {
 
 .nonsen {
   pointer-events: none;
+}
+
+.text { 
+  position: absolute;
+  z-index: 9;
+  bottom: 20%;
+  left: 50%;
+  transform: translate(0℅, 0%);
+  text-align: center;
+  text-transform: uppercase;
+  color: #4B0082;
+}
+
+.text h1 {
+  font-weight: 500;
+  font-size: 4.5rem;
+  line-eheight: 0.88;
+}
+
+.text h2 {
+  font-weight: 500;
+  font-size: 4.5rem;
+  line-eheight: 0.88;
 }
