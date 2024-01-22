@@ -69,4 +69,6 @@ section {
 h1 {
   font-family: "Rubik Burned", system-ui;
   font-weight: 400;
+  top: 20%;
+  left: 50%;
 }
