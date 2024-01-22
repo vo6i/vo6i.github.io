@@ -58,26 +58,3 @@ main {
   pointer-events: none;
 }
 
-.dclxviclan, .dclxviclan1 {
-  font-family: "Rubik Burned", system-ui; 
-  position: absolute;
-  z-index: 9;
-  top: 50%;
-  left: 50%;
-  transform: translate(0℅, 0%);
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.dclxviclan {
-  font-family: "Rubik Burned", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
-.dclxviclan1 {
-  font-family: "Rubik Burned", system-ui;
-  font-weight: 400;
-  font-style: normal;
-}
-
