@@ -8,6 +8,11 @@ main {
   left: 0%;
 }
 
+body {
+  top: 0℅;
+  left: 0%;
+}
+
 .bgs {
   position: absolute;
   z-index: 1;
