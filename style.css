@@ -58,7 +58,7 @@ main {
   pointer-events: none;
 }
 
-.text { 
+.dclxviclan, .dclxviclan1 { 
   position: absolute;
   z-index: 9;
   bottom: 20%;
@@ -69,18 +69,15 @@ main {
   color: #4B0082;
 }
 
-.text h1 {
+.dclxviclan {
   font-family: "Rubik Burned", system-ui;
-  font-weight: 500;
-  font-size: 4.5rem;
-  line-eheight: 0.88;
+  font-weight: 400;
+  font-style: normal;
 }
 
-.text h2 {
+.dclxviclan1 {
   font-family: "Rubik Burned", system-ui;
-  font-weight: 500;
-  font-size: 4.5rem;
-  line-eheight: 0.88;
+  font-weight: 400;
+  font-style: normal;
 }
-
 
