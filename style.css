@@ -68,9 +68,12 @@ section {
 }
 
 .dclxviclan {
-  font-family: "Rubik Burned", system-ui;
+  font-family: "Climate Crisis", sans-serif;
   font-weight: 400;
   top: 20%;
   left: 50%;
   z-index: 9;
+  font-style: normal;
+  font-variation-settings:
+    "YEAR" 1979;
 }
