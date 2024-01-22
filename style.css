@@ -67,7 +67,7 @@ section {
   padding-top: 1000px;
 }
 
-h1 {
+body, main, h1 {
   font-family: "Climate Crisis", sans-serif;
   font-weight: 400;
   top: 20%;
