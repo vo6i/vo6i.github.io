@@ -58,10 +58,11 @@ main {
   pointer-events: none;
 }
 
-.dclxviclan, .dclxviclan1 { 
+.dclxviclan, .dclxviclan1 {
+  font-family: "Rubik Burned", system-ui; 
   position: absolute;
   z-index: 9;
-  bottom: 20%;
+  top: 50%;
   left: 50%;
   transform: translate(0℅, 0%);
   text-align: center;
