@@ -2,13 +2,13 @@
 main {
   position: relative;
   height: 100vh;
-  width: 2000px;
+  width: 100vw;
   overflow: hidden;
 }
 
 body {
   position: absolute;
-  width: 2000px;
+  width: 100vw;
 }
 
 .bgs {
