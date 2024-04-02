@@ -81,7 +81,12 @@
 /*  		letters.style.setProperty("--x", `${x}px`);
   		letters.style.setProperty("--y", `${y}px`);
 */
-  		letters.innerText = randomString(1500);    
+		let customItems = "1,2,3,4,5";
+		customItems = customItems.split(",");
+		for (let i = 0; i < customItems.length; i++) {
+ 		   letters.innerText = randomString[500] + "<br>";
+		}
+  	//	letters.innerText = randomString(500) + "<br>";    
 	      }		
 
 	      card.onmousemove = e => handleOnMove(e);
