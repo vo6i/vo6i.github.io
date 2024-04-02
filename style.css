@@ -1,6 +1,6 @@
 main {
-  position: relative;
-  width: 100vw;
+  position: absolute;
+  width: 720px;
   height: 200px;
 }
 
