@@ -135,4 +135,11 @@ h1 {
   color: #fff;
 }
 
-
+.card-letters {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  height: 100%;
+  width: 100%;
+  color: whitte;
+}
