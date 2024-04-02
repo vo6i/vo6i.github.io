@@ -135,26 +135,4 @@ h1 {
   color: #fff;
 }
 
-.card-letters {
-  --x: 0px;
-  --y: 0px;
-  position: absolute;
-  left: 0px;
-  top: 0px;
-  height: 100%;
-  width: 100%;
-  color: white;
-  font-size: var(--font-size);
-  font-weight: 500;
-  word-wrap: break-word;
-  opacity: 0;
-  transition: opacity 400ms;
-  -webkit-mask-image: radial-gradient(
-    calc(var(--card-size) * 0.8) circle at var(--x) var(--y), 
-    rgb(255 255 255) 20%, 
-    rgb(255 255 255 / 25%), 
-    transparent
-  );
- scale: 1.03;
-}
 
