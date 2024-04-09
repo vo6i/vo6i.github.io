@@ -143,7 +143,7 @@ h1 {
   width: 100%;
   color: white;
   word-break: break-word;
-  z-index: 3;
+  
 }
 
 .card {
@@ -158,7 +158,7 @@ h1 {
   white-space: pre-wrap;
   cursor: pointer;
   box-sizing: border-box;
-  z-index: 2;
+  
 }
 
 .matrix{ 
