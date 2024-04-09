@@ -79,42 +79,7 @@
 	<img src="img/3.png" data-speedx="0.085" data-speedy="0.15" data-speedz="0.15" data-rotation="0.32" class="parallax mn">  
 	<img src="img/4.png" data-speedx="0.035" data-speedy="0.07" data-speedz="0.07" data-rotation="0.18" class="parallax tr">
 	<img src="img/5.jpg" data-speedx="0.065" data-speedy="0.05" data-speedz="0.05" data-rotation="0.12" class="parallax bgs"-->
-        <div class="card">
-       	  <div  class="card-letters"> 
-          
-
-          </div>
-            <script>
-	      const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-
-	      const randomChar = () => chars[Math.floor(Math.random() * (chars.length - 1))],
-     		 randomString = length => Array.from(Array(length)).map(randomChar).join("");
-
- 	      const card = document.querySelector(".card"),
-     		 letters = card.querySelector(".card-letters");
-
-	      const handleOnMove = e => {
-  		const rect = card.getBoundingClientRect(),
-        	  x = e.clientX - rect.left,
-        	  y = e.clientY - rect.top;
-
-/*  		letters.style.setProperty("--x", `${x}px`);
-  		letters.style.setProperty("--y", `${y}px`);
-
-		let customItems = "1,2,3,4,5";
-		customItems = customItems.split(",");
-		for (let i = 0; i < customItems.length; i++) {
-		   letters.innerText = randomString(500) + "<br>";
- 		   customItems[i] = letters.innerText + "<br>";
-		} */
-  		letters.innerText = randomString(500) + "<br>" + randomString(500) + "<br>" + randomString(500) + "<br>";    
-	      }		
-
-	      card.onmousemove = e => handleOnMove(e);
-
-	      card.ontouchmove = e => handleOnMove(e.touches[0]);
-            </script> 
-        </div>
+        
           <!--h1> dclxviclan</h1-->
      </main>
      <section>
@@ -220,6 +185,42 @@
        <h3><font color="green">$hell</font></h3>
        <iframe id="chatss" src="https://dclxviclangames.github.io/sdsd/" width="500" height="400"></iframe>
 <!--button id="myBtn">Follow</button-->
+	<div class="card">
+       	  <div  class="card-letters"> 
+          
+
+          </div>
+            <script>
+	      const chars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
+
+	      const randomChar = () => chars[Math.floor(Math.random() * (chars.length - 1))],
+     		 randomString = length => Array.from(Array(length)).map(randomChar).join("");
+
+ 	      const card = document.querySelector(".card"),
+     		 letters = card.querySelector(".card-letters");
+
+	      const handleOnMove = e => {
+  		const rect = card.getBoundingClientRect(),
+        	  x = e.clientX - rect.left,
+        	  y = e.clientY - rect.top;
+
+/*  		letters.style.setProperty("--x", `${x}px`);
+  		letters.style.setProperty("--y", `${y}px`);
+
+		let customItems = "1,2,3,4,5";
+		customItems = customItems.split(",");
+		for (let i = 0; i < customItems.length; i++) {
+		   letters.innerText = randomString(500) + "<br>";
+ 		   customItems[i] = letters.innerText + "<br>";
+		} */
+  		letters.innerText = randomString(500) + "<br>" + randomString(500) + "<br>" + randomString(500) + "<br>";    
+	      }		
+
+	      card.onmousemove = e => handleOnMove(e);
+
+	      card.ontouchmove = e => handleOnMove(e.touches[0]);
+            </script> 
+	</div>
        <p><a class="nonsen" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&width=335&lines=💀dclxviclan+love+🤗u💕+👀" alt="Typing SVG" /></a></p> 
        <p><iframe frameborder="0" src="https://itch.io/embed/2217026?border_width=4&amp;bg_color=00d5e8&amp;fg_color=221c25&amp;link_color=d35bfa&amp;border_color=483ff9" width="214" height="173"><a href="https://dclxviclan.itch.io/dclxviclan">dclxviclan by #dclxviclan</a></iframe></p>
        <p><a class="nonsen" href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=2000&width=335&lines=if+u+visited+write+comment" alt="Typing SVG" /></a></p> 
