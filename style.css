@@ -162,7 +162,7 @@ h1 {
 }
 
 .matrix{ 
-    height: 40℅;
+    height: 500px;
     width: 100%;   
     display: flex;
     flex-wrap: wrap;
