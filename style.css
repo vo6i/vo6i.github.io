@@ -143,6 +143,7 @@ h1 {
   width: 100%;
   color: white;
   word-break: break-word;
+  z-index: 3;
 }
 
 .card {
